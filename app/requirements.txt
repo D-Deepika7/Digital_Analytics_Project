@@ -3,7 +3,6 @@ matplotlib
 pandas
 numpy
 seaborn
-sklearn
+scikit-learn
 plotly
-Pillow  
-pyodbc
+Pillow
