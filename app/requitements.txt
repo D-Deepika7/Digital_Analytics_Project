@@ -1,7 +1,8 @@
 streamlit>=1.30
+os
+matplotlib
 pandas
 numpy
-matplotlib
 seaborn
 plotly
 Pillow  
