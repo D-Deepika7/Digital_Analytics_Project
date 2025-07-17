@@ -12,7 +12,7 @@ def load_data():
     # # Connect Database
 
     # # Connection settings
-    # server = 'LAPTOP-3IH234A8\SQLEXPRESS01'
+    # server = 'server'
     # database = 'Digital_Product_Analytics_Project'        
 
     # # Connection string (Windows Authentication)
