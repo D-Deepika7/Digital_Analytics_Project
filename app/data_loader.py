@@ -30,16 +30,14 @@ def load_data():
     # website_pageviews = pd.read_sql("SELECT * FROM website_pageviews", conn)
 
 
-    data_path = "data"  # folder where your CSVs are saved
+    data_path = os.path.join(os.path.dirname(__file__), "data")
 
     order_items = pd.read_csv(os.path.join(data_path, "order_items.csv"))
     orders = pd.read_csv(os.path.join(data_path, "orders.csv"))
     products = pd.read_csv(os.path.join(data_path, "products.csv"))
     order_item_refunds = pd.read_csv(os.path.join(data_path, "order_item_refunds.csv"))
-    # website_sessions = pd.read_csv(os.path.join(data_path, "website_sessions.csv"))
-    # website_pageviews = pd.read_csv(os.path.join(data_path, "website_pageviews.csv"))
-    website_sessions = pd.read_csv("data/website_sessions.csv.zip", compression='zip')
-    website_pageviews = pd.read_csv("data/website_pageviews.csv.zip", compression='zip')
+    website_sessions = pd.read_csv(os.path.join(data_path, "website_sessions.csv.zip"), compression='zip')
+    website_pageviews = pd.read_csv(os.path.join(data_path, "website_pageviews.csv.zip"), compression='zip')
 
 
 
