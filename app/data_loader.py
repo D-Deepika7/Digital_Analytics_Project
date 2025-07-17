@@ -36,8 +36,11 @@ def load_data():
     orders = pd.read_csv(os.path.join(data_path, "orders.csv"))
     products = pd.read_csv(os.path.join(data_path, "products.csv"))
     order_item_refunds = pd.read_csv(os.path.join(data_path, "order_item_refunds.csv"))
-    website_sessions = pd.read_csv(os.path.join(data_path, "website_sessions.csv"))
-    website_pageviews = pd.read_csv(os.path.join(data_path, "website_pageviews.csv"))
+    # website_sessions = pd.read_csv(os.path.join(data_path, "website_sessions.csv"))
+    # website_pageviews = pd.read_csv(os.path.join(data_path, "website_pageviews.csv"))
+    website_sessions = pd.read_csv("data/website_sessions.csv.zip", compression='zip')
+    website_pageviews = pd.read_csv("data/website_pageviews.csv.zip", compression='zip')
+
 
 
     # Merge to prepare order_data
