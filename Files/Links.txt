@@ -1,0 +1,20 @@
+Power BI Dashboard Link
+
+https://app.powerbi.com/view?r=eyJrIjoiNTFhMDhjYmItNjNlOS00NGMzLWJkYmMtZjMzN2VlM2MwZTZlIiwidCI6IjgxMjEwNDM2LTRmZGMtNDMwZC1iYjU5LTI3NThjNzBjYTk1YyJ9&pageName=de47d37aba0e3207b502
+
+-------------------
+-------------------
+
+Streamlit App Link
+
+https://digitalanalyticsproject-team1.streamlit.app/
+
+
+Username: Password
+
+ceo: ceo123
+web: web123
+mkt: mkt123
+
+-------------------
+-------------------
